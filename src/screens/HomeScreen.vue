@@ -1,7 +1,5 @@
 <template>
   <view>
-    <text> Hola Mundo Home </text>
-
     <button title="Ir a Detalle" @press="goToDetail"></button>
   </view>
 </template>

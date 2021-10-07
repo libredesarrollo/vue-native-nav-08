@@ -1,29 +1,9 @@
 <template>
-  <app-navigator></app-navigator>
+  <setup />
 </template>
-
 <script>
-import {
-  createAppContainer,
-  createStackNavigator,
-} from "vue-native-router";
-
-import HomeScreen from "./screens/HomeScreen.vue";
-import DetailsScreen from "./screens/DetailsScreen.vue";
-
-const StackNavigator = createStackNavigator(
-  {
-    Home: HomeScreen,
-    Details: DetailsScreen,
-  },
-  {
-    initialRouteName: 'Home',
-  }
-);
-
-const AppNavigator = createAppContainer(StackNavigator);
-
+import Setup from "./src/setup"
 export default {
-  components: { AppNavigator },
+  components: { Setup }
 }
 </script>
