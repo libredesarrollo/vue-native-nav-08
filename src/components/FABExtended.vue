@@ -32,7 +32,7 @@ export default {
         position:absolute;
         top: 80%;
         left:10px;
-        z-index:101;
-        elevation:101;
+        z-index:99;
+        elevation:99;
     }
 </style>
